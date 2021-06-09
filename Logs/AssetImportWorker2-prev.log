@@ -1,0 +1,94 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.10f1c1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+/Users/liuminghao/Documents/GitHub/UnityLearn
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+62399
+Successfully changed project path to: /Users/liuminghao/Documents/GitHub/UnityLearn
+/Users/liuminghao/Documents/GitHub/UnityLearn
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 60.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.10f1c1 (65978a05d4e9)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.10f1c1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/liuminghao/Documents/GitHub/UnityLearn/Assets
+GfxDevice: creating device client; threaded=0
+2021-06-08 13:15:54.072 Unity[8273:407759] Color LCD preferred device: AMD Radeon Pro 560 (high power)
+2021-06-08 13:15:54.072 Unity[8273:407759] Metal devices available: 2
+2021-06-08 13:15:54.073 Unity[8273:407759] 0: AMD Radeon Pro 560 (high power)
+2021-06-08 13:15:54.073 Unity[8273:407759] 1: Intel(R) HD Graphics 630 (low power)
+2021-06-08 13:15:54.073 Unity[8273:407759] Using device AMD Radeon Pro 560 (high power)
+Initializing Metal device caps: AMD Radeon Pro 560
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.10f1c1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.10f1c1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.10f1c1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56273
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.10f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000715 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 57.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.462 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002947 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 56.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.819 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.10f1c1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2089 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.8 MB.
+System memory in use after: 171.8 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2522.
+Total: 2.758250 ms (FindLiveObjects: 0.249484 ms CreateObjectMapping: 0.097290 ms MarkObjects: 2.216808 ms  DeleteObjects: 0.193686 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Polymorphism/Apple.cs
+  artifactKey: Guid(2c01e450566a44a1e905b232c73612f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Polymorphism/Apple.cs using Guid(2c01e450566a44a1e905b232c73612f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d7bf375e9fb462bafb6ebc7473248e') in 0.399275 seconds
+  Import took 0.403997 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002697 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.817 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.3 MB.
+System memory in use after: 176.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2527.
+Total: 3.362975 ms (FindLiveObjects: 0.255748 ms CreateObjectMapping: 0.104172 ms MarkObjects: 2.878343 ms  DeleteObjects: 0.123573 ms)
+
